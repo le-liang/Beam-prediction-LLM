@@ -1,0 +1,1 @@
+Beam prediction dataset is a collection of millisecond data from a multiple-input single-output system, describing the movement of beam direction over time, which typical remains constant within several time steps.
