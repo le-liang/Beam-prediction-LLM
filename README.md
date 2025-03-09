@@ -11,13 +11,13 @@
 
 
 
-
+Y. Sheng, K. Huang, L. Liang, P. Liu, S. Jin, and G. Y. Li, "[Beam prediction based on large language models][link2letter]," IEEE Wireless Communications Letters, early access, 2025.
 
 
 ## Introduction
 This project is for the simulation in the paper "[Beam Prediction based on Large Language Models][link2letter]". In this paper, we use large language models (LLMs) to develop a high-performing and robust beam prediction method. We formulate the millimeter wave (mmWave) beam prediction problem as a time series forecasting task, where the historical observations are aggregated through cross-variable attention and then transformed into text-based representations using a trainable tokenizer. By leveraging the prompt-as-prefix (PaP) technique for contextual enrichment, our method harnesses the power of LLMs to predict future optimal beams. 
 
-[link2letter]:<https://arxiv.org/pdf/2408.08707>
+[link2letter]:<https://ieeexplore.ieee.org/document/10892257>
 
 
 ## Requirements
@@ -77,10 +77,10 @@ Our implementation adapts [OFA (GPT4TS)](https://github.com/DAMO-DI-ML/NeurIPS20
 > 🌟 If you find this resource helpful, please consider to star this repository and cite our research:
 
 ```
-@article{sheng2024beam,
+@article{sheng2025beam,
   title={Beam prediction based on large language models},
   author={Sheng, Yucheng and Huang, Kai and Liang, Le and Liu, Peng and Jin, Shi and Li, Geoffrey Ye},
-  journal={arXiv preprint arXiv:2408.08707},
-  year={2024}
+  journal={IEEE Wireless Communications Letters},
+  year={2025}
 }
 ```
